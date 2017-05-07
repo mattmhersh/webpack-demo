@@ -16,8 +16,7 @@ module.exports = {
         {test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: "file-loader" },
         {test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: "url-loader?limit=10000&mimetype=image/svg+xml" },
         {test: /\.html$/, loader: 'raw',exclude: /node_modules/},
-        {test   : /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9=&.]+)?$/,loader : 'file-loader'},
-        { test: require.resolve("jquery"), loader: "imports-loader?jQuery=jquery" }
+        {test   : /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9=&.]+)?$/,loader : 'file-loader'}
       ]
     },
     plugins: [

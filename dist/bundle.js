@@ -70,10 +70,7 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*** IMPORTS FROM imports-loader ***/
-var jQuery = __webpack_require__(0);
-
-/*!
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
  * jQuery JavaScript Library v3.2.1
  * https://jquery.com/
  *
@@ -10327,7 +10324,6 @@ if ( !noGlobal ) {
 
 return jQuery;
 } );
-
 
 
 /***/ }),
