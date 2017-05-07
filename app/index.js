@@ -1,5 +1,7 @@
 import '../bower_components/bootstrap/dist/css/bootstrap.css';
 
+import '../styles.css';
+
 import _ from 'lodash';
 
 import 'jquery';
